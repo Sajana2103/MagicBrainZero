@@ -2,7 +2,7 @@ const express = require('express')
 const fs = require('fs')
 const app = express()
 const cors = require('cors')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcrypt-nodejs')
 
 const knex = require('knex')
 const pg = require('pg')

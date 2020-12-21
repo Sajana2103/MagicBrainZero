@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "bcrypt": "^5.0.0",
     "bcrypt-nodejs": "0.0.3",
     "clarifai": "^2.9.1",
     "cors": "^2.8.5",
