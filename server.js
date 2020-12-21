@@ -32,12 +32,14 @@ app.use(express.json());
 app.use(cors())
 
 app.get('/', (req,res) =>{
+/*
     database.select('*').from('users')
         .then(users => {
             res.json(users)
         })
 
-
+*/
+    res.json('it is working')
 })
 
 app.get('/profile/:id', (req,res) =>{
