@@ -15,9 +15,9 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
 
 const database = knex({
   client: 'pg',
+    connection : {
   connectionString: process.env.DATABASE_URL,
-  ssl: {
-    rejectUnauthorized: true
+  ssl: true
   }
 });
 database.select('id', 'email', 'name')
